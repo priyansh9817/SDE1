@@ -7,6 +7,7 @@ let student = {
 function StudentDetails(s){
     console.log(s.name);
     console.log(s.Pincode)
+    // console.log(Pincode)     it shows reference error 
 }
 StudentDetails(student)
 
