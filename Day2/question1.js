@@ -1,13 +1,14 @@
 {
   let x = 5;
+  // console.log(x);    barcket ke andar likhe ge tab ye error show nhi kare gaa 
 }
-// console.log(x);
+//  console.log(x);    yaha error show kare gaa undfined dega 
 
 
 function test() {
   var z = 30;
 }
-// console.log(z);
+console.log(z);
 
 {
   var p = 50;
