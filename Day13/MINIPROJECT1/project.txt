@@ -1,0 +1,11 @@
+📌 Project Idea (Simple but Powerful)
+
+Button click karoge
+
+API se users ka data fetch hoga
+
+Data page par show hoga
+
+Error aaya to proper message dikhega
+
+👉 Ye real-world frontend behavior hai (React se pehle JS samajhne ke liye best)
