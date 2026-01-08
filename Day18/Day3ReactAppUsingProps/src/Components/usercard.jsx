@@ -1,7 +1,7 @@
 function UserCard ({user}){
     return(
         <>
-        <p>{user.name}- {user.city}</p>
+        <p>{user.name}- {user.email}</p>
         </>
     )
 }

@@ -2,6 +2,7 @@ import './App.css'
 import User from './Components/user'
 import Product from './Components/productprice'
 import Profile from './Components/PassingObjectInprops'
+import Prf from './Components/logindetails'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <User name="Devil" Email="Developer" age = {66}/>
 
     <h1><Product name={"Coffe Mug"} price={99} instock={true} /></h1>
-
+    <Profile/>
+    <Prf></Prf>
     </>
   )
 }

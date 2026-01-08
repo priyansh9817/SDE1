@@ -1,14 +1,13 @@
+import UserCard from "./usercard";
 
-import UserCard from "./usercard"
+function Profile() {
 
-function Profile(){
-    return {
-        name : "Priyanshu ",
-        Email: "Priyanshu@gmail.com",
-    }
-    
-};
+  const user = {
+    name: "Priyanshu",
+    email: "Priyanshu@gmail.com"
+  };
 
-<UserCard user = {Profile}/>
+  return <UserCard user={user} />;
+}
 
 export default Profile;
