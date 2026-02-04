@@ -5,6 +5,7 @@ import './App.css'
 import Form from './Components/UsestatesPractice'
 import Profile from './Components/UseEffect'
 import Loder from './Components/LoadingError'
+import { UserProvider } from './context/userprovide'
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
     <>
      {/* <Form></Form> */}
      {/* <Profile></Profile> */}
-     <Loder></Loder>
+     <UserProvider><Loder></Loder></UserProvider>
+     
     </>
   )
 }
